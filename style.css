@@ -1,2 +1,20 @@
 body{color: grey
     ;}
+
+.fa-hand-holding-heart {height: 50px;width: 50px;
+    font-size: 50px;
+    }
+.fa-magnifying-glass {height: 50px;width: 50px;
+    font-size: 30px;}
+
+header {display: flex;
+justify-content: space-between;}
+
+h1 {background-color: red; 
+    font-style: italic;color: white;
+margin-left: 0px;}
+
+.clique-don {background-color: red;
+font-style: normal;color: white;}
+
+
