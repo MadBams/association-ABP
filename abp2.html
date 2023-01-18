@@ -8,47 +8,48 @@
     <title>la Fondation Abbé Pierre</title>
     <link rel="stylesheet" href="/Users/madvy/OneDrive/Documents/Developpeur Web/font awesome/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/users/madvy/OneDrive/Documents/Developpeur Web/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 </head>
 <body>
     <header>
        <div><i class="fa-solid fa-hand-holding-heart"></i></div>
         <h1>30 ans d'actions fondation Abbe Pierre</h1>
-        <button class="b-don">FAIRE UN DON</button>
+        <button class="btn btn-primary btn-sm active" role="button" aria-pressed="true">FAIRE UN DON</button>
     </header>
 
-    <nav>        
-        <ul class="MENU">
-            <li><a href="abp2.html" title="Accueil">la fondation</a></li>
-            <li><a href="lesactualites.html" title="Actualites">Actualites</a></li>
+    <nav class="container-xs">      
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link active" href="abp2.html" title="Accueil">la fondation</a></li>
+            <li class="nav-item"><a class="nav-link active" href="lesactualites.html" title="Actualites">Actualites</a></li>
         </ul>
     </nav>
 
     <main> 
-        <img src="../../abp1.jfif" alt="bénévoles">
+        <img src="../../abp1.jfif"class="rounded mx-auto d-block" alt="bénévoles">
             <p>La fondation Abbé Pierre présentera son prochain rapport sur "L'Etat du
                 mal-logement en France" le<strong> mercredi 1er fevrier 2023</strong>
             </p>
-        <img src="../../abp2.jfif" alt="raphael éboueur">
+        <img src="../../abp2.jfif"class="rounded mx-auto d-block" alt="raphael éboueur">
             <p>A Reims, accueillir et soutenir les plus fragiles</p>
-        <img src="../../abp3.jfif" alt="sdf">
+        <img src="../../abp3.jfif"class="rounded mx-auto d-block" alt="sdf">
             <p>Quitter la rue, c'est retrouver la vie</p>
-        <img src="../../abp4.jfif" alt="">
+        <img src="../../abp4.jfif"class="rounded mx-auto d-block" alt="le marcheur">
             <p>la fondation Abbe pierre presentera son prochain rapport sur "l'état du mal
             logement en France" le mercredi  1er fevrier 2023
             </p>
         
         <h2 >Nos actions</h2>
-            <img src="../../abp5.jfif" alt="">
+            <img src="../../abp5.jfif" class="rounded mx-auto d-block" alt="une femme et son fils">
                 <p class="nos-actions">Lutter contre l'habitat indigne et précaire</p>
                 <p>Eradiquer le logement indigne sur tout le territoire</p>
-            <img src="../../abp6.jfif" alt="">
+            <img src="../../abp6.jfif" class="rounded mx-auto d-block" alt="un monsieur barbu">
                 <p class="nos-actions">Produire du logement très social</p>
-            <img src="../../abp7.jfif" alt="">
+            <img src="../../abp7.jfif" class="rounded mx-auto d-block" alt="un enfant avec son chien">
                 <p class="nos-actions">Accueillir et loger</p>
     </main>
 
     <aside> 
-        <h2>les actualités</h2>
+        <h2>Actualités</h2>
             <h3>5 janvier 2023</h3>
                  <p>A Reims, accueillir et soutenir les plus fragiles</p>
             <h3>20 décembre 2022</h3>
@@ -56,11 +57,12 @@
             <h3>9 décembre 2022</h3>
                 <p>L'édito du 12 décembre</p>
             <h3>9 décembre 2022</h3>
-                <p>44 logements pour les défavorisé à la Havane</p>
+                <p>44 logements pour les défavorisés à la Havane</p>
             <h3>6 décembre 2022</h3>
                 <p>Eiffage Construction et l'orchestre de l'Alliance: 28000 euros
                    au profit de la Fondation</p>
-            <button class="b-actu">TOUTES LES ACTUALITES</button>
+                    <a href="lesactualites.html"class="btn btn-primary btn-sm active" role="button"
+                     aria-pressed="true">TOUTES LES ACTUALITES</a>
     </aside>
     <h5 class="pagi">Pages</h5>
     <div class="pagi">
@@ -94,5 +96,6 @@
             <button>Politique de protection des données</button>
         </section>
     </footer>
+    <script src="/Users/madvy/OneDrive/Documents/Developpeur Web/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
