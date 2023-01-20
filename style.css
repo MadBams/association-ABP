@@ -8,8 +8,10 @@ h2>img{display: flex;
 
 img {height: 350px;
     width: 500px;
-    margin: 15px;}
+margin: 15px;}
 
+.iconF{height: 150px;
+        width: 150px;}
 
 /* pour les appareil au-dela de 320px*/
 @media only screen and(min-width: 320px){
@@ -32,13 +34,15 @@ nav,footer{margin: 0;}
 
 
 header {display: flex;
+    height: 150px;
 justify-content: space-between;}
 
-header>h1 {background-color: rgb(219, 26, 26); 
-    font-style:normal;color:white;
+h1 {background-color: rgb(219, 26, 26); 
+    font-style:normal;
     text-align: center;
+    color: rgb(240, 229, 229);
     margin: 15px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-left: 15PX;
     padding-right: 15px;
     border-radius: 45px;
