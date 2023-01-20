@@ -1,13 +1,12 @@
 body{font-family: arial, sans-serif;
 font-size: 16px;
-line-height: 22px;
 margin: 5px;
 }
 
 h2>img{display: flex;
     justify-content: center;}
 
-img {height: 300px;
+img {height: 350px;
     width: 500px;
     margin: 15px;}
 
@@ -22,21 +21,18 @@ img {height: 300px;
 @media only screen and(min-width: 768px){
 
     body{font-size:2.5rem;}
-    }
+}
+    /* config sous les 500px*/
+@media screen and(max-width:500px) {
+nav,footer{margin: 0;}
 
-.fa-hand-holding-heart {margin: 15PX;
-    padding: 15PX;
-    text-align: center;
-    height:250px;width:250px;
-    font-size: 50px;
-    color: white;
-    background-color: rgb(32, 32, 35);
-    border-radius: 45px;
-    }
+.iconF {display: none;}
+    
+}
+
 
 header {display: flex;
-justify-content: space-between;
-width: auto;}
+justify-content: space-between;}
 
 header>h1 {background-color: rgb(219, 26, 26); 
     font-style:normal;color:white;
@@ -45,7 +41,7 @@ header>h1 {background-color: rgb(219, 26, 26);
     padding-top: 10px;
     padding-left: 15PX;
     padding-right: 15px;
-    border-radius: 45px ;
+    border-radius: 45px;
 }
 
 main>p {padding-left: 15px;}
